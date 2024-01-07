@@ -1,0 +1,77 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start banner section */
+
+.banner{
+    position: relative;
+    width: 83%;
+    height: 77vh;
+    display: flex;
+    margin: 60px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.banner-title{
+    color: #fff;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+.banner-title>p{
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.banner-title>h1{
+    font-size: 70px;
+}
+
+/* end banner section */
+
+/* start discount section */
+.discount-sec{
+    width: 60%;
+    height: 120vh;
+    margin: 20px auto;
+}
+.discount-title>h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.discount-title>p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.discount-title>h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+/* end discount section */
